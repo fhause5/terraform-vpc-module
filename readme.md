@@ -11,7 +11,7 @@ provider "aws" {
 
 
 module "vpc" {
-  source = "./terraform-vps-module"
+  source = "github.com/fhause5/terraform-vpc-module.git?ref=terraform-0.12"
 
   AWS_REGION          = "eu-central-1"
   PATH_TO_PRIVATE_KEY = "mykey"
