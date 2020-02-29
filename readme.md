@@ -1,4 +1,4 @@
-### Terrafrom vps module
+### Terraform vps module
 
 Example:
 ```
